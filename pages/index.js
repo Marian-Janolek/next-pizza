@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Featured from '../components/Featured';
+import ProductList from '../components/ProductList';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -9,7 +11,8 @@ export default function Home() {
         <title>Pizza Restaurant</title>
         <meta name="description" content="Best pizza shop in town" />
       </Head>
-      homepage
+      <Featured />
+      <ProductList />
     </div>
   );
 }
